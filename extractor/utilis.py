@@ -8,6 +8,8 @@ from nltk.tree import Tree
 # import keras_ocr
 from PIL import Image
 import pytesseract
+from docinfo.settings import BASE_DIR
+
 # import stanza
 # from flair.data import Sentence
 # from flair.models import SequenceTagger
