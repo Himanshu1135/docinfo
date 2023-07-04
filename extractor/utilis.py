@@ -1,5 +1,5 @@
 import nltk
-import re,cv2
+import re,cv2,os
 # import spacy
 import numpy as np
 from nltk import ne_chunk, pos_tag
@@ -12,7 +12,7 @@ import pytesseract
 # from flair.data import Sentence
 # from flair.models import SequenceTagger
 
-file_path = r'D:\Projects\docinfo\extractor\name_corpus.txt'
+file_path = os.path.join(BASE_DIR,"name_corpus.txt")
 # Open the file
 with open(file_path, 'r') as file:
     # Read the contents of the file
